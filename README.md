@@ -15,7 +15,17 @@ A 4×4 output-stationary systolic array for integer matrix multiplication (C = A
 a_row0 → PE00 → PE01 → PE02 → PE03 │ │ │ │ a_row1 → PE10 → PE11 → PE12 → PE13 │ │ │ │ a_row2 → PE20 → PE21 → PE22 → PE23 │ │ │ │ a_row3 → PE30 → PE31 → PE32 → PE33
 ## Repository Structure
 
-systolic_array/ ├── rtl/ │ ├── pe.v # Processing element (8-bit MAC) │ └── systolic_4x4.v # Top-level 4×4 array ├── tb/ │ ├── tb_systolic.v # Test 1: A × Identity │ └── tb_systolic2.v # Test 2: Non-trivial B matrix ├── model/ │ ├── golden_model.py # Python reference model │ └── test_vectors.txt # Test vectors └── sim/ # VCD waveform outputs
+systolic_array/ 
+├── rtl/ 
+│ ├── pe.v # Processing element (8-bit MAC) 
+│ └── systolic_4x4.v # Top-level 4×4 array 
+├── tb/ 
+│ ├── tb_systolic.v # Test 1: A × Identity 
+│ └── tb_systolic2.v # Test 2: Non-trivial B matrix 
+├── model/ 
+│ ├── golden_model.py # Python reference model 
+│ └── test_vectors.txt # Test vectors 
+└── sim/ # VCD waveform outputs
 ## How to Simulate
 
 ```bash
@@ -42,6 +52,4 @@ Icarus Verilog (iverilog 10.3) for simulation
 GTKWave for waveform viewing (sim/*.vcd)
 Python 3 for golden reference model
 Author
-Built as part of an RTL design portfolio covering systolic arrays, AXI4, RISC-V pipelines, PWM, and formal verification. EOF
-
-git add README.md git commit -m "Add README with architecture diagram and simulation instructions" git push
+Built as part of an RTL design portfolio covering systolic arrays, AXI4, RISC-V pipelines, PWM, and formal verification. 
