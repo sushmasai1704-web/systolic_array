@@ -1,2 +1,9 @@
-sim.out
-*.vcd
+# SymbiYosys proof output
+pe/
+*.xml
+*.log
+PASS
+FAIL
+status
+model/
+engine_0/
