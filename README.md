@@ -53,3 +53,10 @@ GTKWave for waveform viewing (sim/*.vcd)
 Python 3 for golden reference model
 Author
 Built as part of an RTL design portfolio covering systolic arrays, AXI4, RISC-V pipelines, PWM, and formal verification. 
+
+## Formal Verification Results
+- Tool: SymbiYosys + Z3 (smtbmc)
+- Method: k-induction
+- Result: **PASS** — successful proof, rc=0
+- Properties proved: reset correctness, signed MAC arithmetic,
+  pipeline bypass, cover reachability
