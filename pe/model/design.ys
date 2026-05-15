@@ -1,0 +1,14 @@
+# running in pe/src/
+read_verilog -formal pe_formal.sv
+hierarchy -check -top pe_formal
+flatten
+proc
+opt
+memory -nomap
+opt
+check -assert
+prep -top pe_formal
+
+hierarchy -smtcheck
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

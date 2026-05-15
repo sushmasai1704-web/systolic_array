@@ -1,0 +1,79 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.37+1 (git sha1 37a6c9a09, clang 14.0.0-1ubuntu1.1 -fPIC -Os)
+
+
+-- Executing script file `design_smt2.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: design_prep.il
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \pe_formal
+
+2.2. Analyzing design hierarchy..
+Top module:  \pe_formal
+Removed 0 unused modules.
+Module pe_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+3. Executing FORMALFF pass.
+
+4. Executing DFFUNMAP pass (unmap clock enable and synchronous reset from FFs).
+
+5. Printing statistics.
+
+=== pe_formal ===
+
+   Number of wires:                135
+   Number of wire bits:           1023
+   Number of public wires:          68
+   Number of public wire bits:     619
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     $add                            2
+     $anyinit                       25
+     $anyseq                        12
+     $assert                         6
+     $assume                         7
+     $eq                             1
+     $ff                             7
+     $initstate                      1
+     $logic_and                      9
+     $logic_not                      4
+     $mul                            2
+     $mux                           46
+     $not                            6
+
+6. Executing SMT2 backend.
+
+6.1. Executing BMUXMAP pass.
+
+6.2. Executing DEMUXMAP pass.
+Creating SMT-LIBv2 representation of module pe_formal.
+
+End of script. Logfile hash: 2882918905, CPU: user 0.00s system 0.01s, MEM: 10.88 MB peak
+Yosys 0.37+1 (git sha1 37a6c9a09, clang 14.0.0-1ubuntu1.1 -fPIC -Os)
+Time spent: 68% 2x write_smt2 (0 sec), 24% 2x read_ilang (0 sec), ...

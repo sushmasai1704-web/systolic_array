@@ -1,0 +1,1785 @@
+{
+  "$schema": "https://raw.githubusercontent.com/YosysHQ/yosys/master/misc/jny.schema.json",
+  "generator": "Yosys 0.37+1 (git sha1 37a6c9a09, clang 14.0.0-1ubuntu1.1 -fPIC -Os)",
+  "version": "0.0.1",
+  "invocation": "write_jny -no-connections ../model/design.json ",
+  "features": ["attributes", "properties"],
+  "modules": [
+      {
+        "name": "pe_formal",
+        "cell_sorts": [
+          {
+            "type": "$mux",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "B",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "S",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$procmux$250",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.31-157.52|pe_formal.sv:157.27-157.89"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$254",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.31-156.52|pe_formal.sv:156.27-156.94"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$258",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.31-155.52|pe_formal.sv:155.27-155.158"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$262",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.31-154.52|pe_formal.sv:154.27-154.104"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$266",
+                  "attributes": {
+                    "src": "pe_formal.sv:153.31-153.52|pe_formal.sv:153.27-153.94"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$270",
+                  "attributes": {
+                    "src": "pe_formal.sv:151.31-151.52|pe_formal.sv:151.27-151.73"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$277",
+                  "attributes": {
+                    "src": "pe_formal.sv:144.31-144.52|pe_formal.sv:144.27-144.71"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$279",
+                  "attributes": {
+                    "src": "pe_formal.sv:144.31-144.52|pe_formal.sv:144.27-144.71"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$283",
+                  "attributes": {
+                    "src": "pe_formal.sv:134.13-134.19|pe_formal.sv:134.9-138.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$287",
+                  "attributes": {
+                    "src": "pe_formal.sv:134.13-134.19|pe_formal.sv:134.9-138.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$291",
+                  "attributes": {
+                    "src": "pe_formal.sv:134.13-134.19|pe_formal.sv:134.9-138.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$297",
+                  "attributes": {
+                    "src": "pe_formal.sv:122.13-122.61|pe_formal.sv:122.9-125.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$305",
+                  "attributes": {
+                    "src": "pe_formal.sv:103.13-103.68|pe_formal.sv:103.9-106.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$307",
+                  "attributes": {
+                    "src": "pe_formal.sv:103.13-103.68|pe_formal.sv:103.9-106.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$309",
+                  "attributes": {
+                    "src": "pe_formal.sv:94.13-94.51|pe_formal.sv:94.9-95.38"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$311",
+                  "attributes": {
+                    "src": "pe_formal.sv:94.13-94.51|pe_formal.sv:94.9-95.38"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$329",
+                  "attributes": {
+                    "src": "pe_formal.sv:89.17-89.58|pe_formal.sv:89.13-89.80"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$333",
+                  "attributes": {
+                    "src": "pe_formal.sv:89.17-89.58|pe_formal.sv:89.13-89.80"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$335",
+                  "attributes": {
+                    "src": "pe_formal.sv:86.13-86.50|pe_formal.sv:86.9-91.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$337",
+                  "attributes": {
+                    "src": "pe_formal.sv:90.17-90.57|pe_formal.sv:90.13-90.79"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$341",
+                  "attributes": {
+                    "src": "pe_formal.sv:90.17-90.57|pe_formal.sv:90.13-90.79"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$343",
+                  "attributes": {
+                    "src": "pe_formal.sv:86.13-86.50|pe_formal.sv:86.9-91.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$347",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.13-83.19|pe_formal.sv:83.9-83.81"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$349",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.13-83.19|pe_formal.sv:83.9-83.81"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$351",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.13-83.19|pe_formal.sv:83.9-83.81"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$354",
+                  "attributes": {
+                    "full_case": "00000000000000000000000000000001",
+                    "src": "pe_formal.sv:64.22-64.29|pe_formal.sv:64.18-68.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$366",
+                  "attributes": {
+                    "full_case": "00000000000000000000000000000001",
+                    "src": "pe_formal.sv:51.22-51.29|pe_formal.sv:51.18-55.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procmux$372",
+                  "attributes": {
+                    "full_case": "00000000000000000000000000000001",
+                    "src": "pe_formal.sv:38.22-38.47|pe_formal.sv:38.18-42.12"
+                  },
+                  "parameters": {
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$adff",
+            "ports": [
+                {
+                  "name": "ARST",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "CLK",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "D",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Q",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$procdff$440",
+                  "attributes": {
+                    "src": "pe_formal.sv:61.5-69.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "0",
+                    "ARST_VALUE": "0",
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$445",
+                  "attributes": {
+                    "src": "pe_formal.sv:48.5-56.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "0",
+                    "ARST_VALUE": "0",
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$448",
+                  "attributes": {
+                    "src": "pe_formal.sv:35.5-43.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "0",
+                    "ARST_VALUE": "0",
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$dff",
+            "ports": [
+                {
+                  "name": "CLK",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "D",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Q",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$procdff$380",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.5-157.89"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$382",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.5-156.94"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$384",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.5-155.158"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$386",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.5-154.104"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$388",
+                  "attributes": {
+                    "src": "pe_formal.sv:153.5-153.94"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$390",
+                  "attributes": {
+                    "src": "pe_formal.sv:151.5-151.73"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$393",
+                  "attributes": {
+                    "src": "pe_formal.sv:144.5-144.71"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$394",
+                  "attributes": {
+                    "src": "pe_formal.sv:144.5-144.71"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$395",
+                  "attributes": {
+                    "src": "pe_formal.sv:133.5-138.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$397",
+                  "attributes": {
+                    "src": "pe_formal.sv:133.5-138.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$399",
+                  "attributes": {
+                    "src": "pe_formal.sv:133.5-138.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$400",
+                  "attributes": {
+                    "src": "pe_formal.sv:133.5-138.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$405",
+                  "attributes": {
+                    "src": "pe_formal.sv:121.5-125.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$409",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$410",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$procdff$411",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$procdff$412",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$procdff$413",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$414",
+                  "attributes": {
+                    "src": "pe_formal.sv:102.5-106.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$415",
+                  "attributes": {
+                    "src": "pe_formal.sv:93.5-95.38"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$416",
+                  "attributes": {
+                    "src": "pe_formal.sv:93.5-95.38"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$417",
+                  "attributes": {
+                    "src": "pe_formal.sv:93.5-95.38"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$418",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$424",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$425",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$426",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$431",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$433",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$435",
+                  "attributes": {
+                    "src": "pe_formal.sv:82.5-83.81"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$437",
+                  "attributes": {
+                    "src": "pe_formal.sv:82.5-83.81"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$procdff$439",
+                  "attributes": {
+                    "src": "pe_formal.sv:78.5-78.45"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "1",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$add",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "B",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [32, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$add$pe_formal.sv:104$105",
+                  "attributes": {
+                    "src": "pe_formal.sv:104.35-105.58"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$add$pe_formal.sv:45$43",
+                  "attributes": {
+                    "src": "pe_formal.sv:45.39-46.113"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000100000"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$assert",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "EN",
+                  "direction": "io",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$assert$pe_formal.sv:103$189",
+                  "attributes": {
+                    "src": "pe_formal.sv:103.75-105.59"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assert$pe_formal.sv:123$191",
+                  "attributes": {
+                    "src": "pe_formal.sv:123.49-124.47"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assert$pe_formal.sv:134$192",
+                  "attributes": {
+                    "src": "pe_formal.sv:134.26-135.33"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assert$pe_formal.sv:135$193",
+                  "attributes": {
+                    "src": "pe_formal.sv:135.34-136.33"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assert$pe_formal.sv:136$194",
+                  "attributes": {
+                    "src": "pe_formal.sv:136.34-137.33"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assert$pe_formal.sv:94$188",
+                  "attributes": {
+                    "src": "pe_formal.sv:94.52-95.37"
+                  },
+                  "parameters": {
+
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$assume",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "EN",
+                  "direction": "io",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$assume$pe_formal.sv:80$181",
+                  "attributes": {
+                    "src": "pe_formal.sv:80.12-80.27"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assume$pe_formal.sv:83$182",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.26-83.51"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assume$pe_formal.sv:83$183",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.52-83.76"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assume$pe_formal.sv:88$185",
+                  "attributes": {
+                    "src": "pe_formal.sv:88.58-88.78"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assume$pe_formal.sv:89$186",
+                  "attributes": {
+                    "src": "pe_formal.sv:89.59-89.79"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$assume$pe_formal.sv:90$187",
+                  "attributes": {
+                    "src": "pe_formal.sv:90.58-90.78"
+                  },
+                  "parameters": {
+
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$eq",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "B",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$eq$pe_formal.sv:104$106",
+                  "attributes": {
+                    "src": "pe_formal.sv:104.20-105.58"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:153$149",
+                  "attributes": {
+                    "src": "pe_formal.sv:153.60-153.92"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:155$162",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.60-155.100"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000010000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000001111",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:155$163",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.104-155.143"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000010000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000001111",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$sdff",
+            "ports": [
+                {
+                  "name": "CLK",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "D",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Q",
+                  "direction": "",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "SRST",
+                  "direction": "io",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$auto$ff.cc:266:slice$451",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "SRST_POLARITY": "00000000000000000000000000000000",
+                    "SRST_VALUE": "0",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$452",
+                  "attributes": {
+                    "src": "pe_formal.sv:85.5-91.12"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "SRST_POLARITY": "00000000000000000000000000000000",
+                    "SRST_VALUE": "0",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$adffe",
+            "ports": [
+                {
+                  "name": "ARST",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "CLK",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "D",
+                  "direction": "io",
+                  "range": [16, 0]
+                },
+                {
+                  "name": "EN",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Q",
+                  "direction": "",
+                  "range": [16, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$auto$ff.cc:266:slice$453",
+                  "attributes": {
+                    "src": "pe_formal.sv:61.5-69.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "0000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000010000"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$454",
+                  "attributes": {
+                    "src": "pe_formal.sv:61.5-69.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "0000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000010000"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$455",
+                  "attributes": {
+                    "src": "pe_formal.sv:61.5-69.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "00000000000000000000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$456",
+                  "attributes": {
+                    "src": "pe_formal.sv:48.5-56.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "00000000000000000000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$457",
+                  "attributes": {
+                    "src": "pe_formal.sv:35.5-43.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "0000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000010000"
+                  }
+                },
+                {
+                  "name": "$auto$ff.cc:266:slice$460",
+                  "attributes": {
+                    "src": "pe_formal.sv:35.5-43.8"
+                  },
+                  "parameters": {
+                    "ARST_POLARITY": "00000000000000000000000000000000",
+                    "ARST_VALUE": "0000000000000000",
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "WIDTH": "00000000000000000000000000010000"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$sdffe",
+            "ports": [
+                {
+                  "name": "CLK",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "D",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "EN",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Q",
+                  "direction": "",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "SRST",
+                  "direction": "io",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$auto$ff.cc:266:slice$462",
+                  "attributes": {
+                    "src": "pe_formal.sv:148.5-150.66"
+                  },
+                  "parameters": {
+                    "CLK_POLARITY": "00000000000000000000000000000001",
+                    "EN_POLARITY": "00000000000000000000000000000001",
+                    "SRST_POLARITY": "00000000000000000000000000000000",
+                    "SRST_VALUE": "0",
+                    "WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$cover",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "EN",
+                  "direction": "io",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$cover$pe_formal.sv:144$195",
+                  "attributes": {
+                    "src": "pe_formal.sv:144.53-144.70"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:151$196",
+                  "attributes": {
+                    "src": "pe_formal.sv:151.53-151.72"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:153$197",
+                  "attributes": {
+                    "src": "pe_formal.sv:153.53-153.93"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:154$198",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.53-154.103"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:155$199",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.53-155.157"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:156$200",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.53-156.93"
+                  },
+                  "parameters": {
+
+                  }
+                },
+                {
+                  "name": "$cover$pe_formal.sv:157$201",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.53-157.88"
+                  },
+                  "parameters": {
+
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$not",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$eq$pe_formal.sv:135$130",
+                  "attributes": {
+                    "src": "pe_formal.sv:135.20-135.32"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:136$131",
+                  "attributes": {
+                    "src": "pe_formal.sv:136.20-136.32"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:137$132",
+                  "attributes": {
+                    "src": "pe_formal.sv:137.20-137.32"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:83$55",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.34-83.50"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:83$56",
+                  "attributes": {
+                    "src": "pe_formal.sv:83.60-83.75"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$logic_not",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [16, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$eq$pe_formal.sv:154$154",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.60-154.73"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000010000",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:154$155",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.77-154.89"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000010000",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$eq$pe_formal.sv:95$91",
+                  "attributes": {
+                    "src": "pe_formal.sv:95.20-95.36"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:156$170",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.60-156.68"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:156$171",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.72-156.80"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:156$173",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.84-156.92"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:157$179",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.75-157.87"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:80$206",
+                  "attributes": {
+                    "src": "pe_formal.sv:80.20-80.26"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:89$81",
+                  "attributes": {
+                    "src": "pe_formal.sv:89.39-89.58"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_not$pe_formal.sv:90$83",
+                  "attributes": {
+                    "src": "pe_formal.sv:90.39-90.57"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$initstate",
+            "ports": [
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$initstate$18",
+                  "attributes": {
+                    "module_not_derived": "00000000000000000000000000000001",
+                    "src": "pe_formal.sv:0.0-0.0"
+                  },
+                  "parameters": {
+
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$logic_and",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "B",
+                  "direction": "io",
+                  "range": [0, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [0, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$logic_and$pe_formal.sv:103$103",
+                  "attributes": {
+                    "src": "pe_formal.sv:103.13-103.68"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:122$115",
+                  "attributes": {
+                    "src": "pe_formal.sv:122.13-122.41"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:122$116",
+                  "attributes": {
+                    "src": "pe_formal.sv:122.13-122.50"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:122$117",
+                  "attributes": {
+                    "src": "pe_formal.sv:122.13-122.61"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:150$139",
+                  "attributes": {
+                    "src": "pe_formal.sv:150.18-150.36"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:150$140",
+                  "attributes": {
+                    "src": "pe_formal.sv:150.18-150.47"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:154$156",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.60-154.89"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:154$157",
+                  "attributes": {
+                    "src": "pe_formal.sv:154.60-154.102"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:155$164",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.60-155.143"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:155$165",
+                  "attributes": {
+                    "src": "pe_formal.sv:155.60-155.156"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:156$172",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.60-156.80"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:156$174",
+                  "attributes": {
+                    "src": "pe_formal.sv:156.60-156.92"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:157$178",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.31-157.52"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:157$180",
+                  "attributes": {
+                    "src": "pe_formal.sv:157.60-157.87"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:38$41",
+                  "attributes": {
+                    "src": "pe_formal.sv:38.22-38.47"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:89$82",
+                  "attributes": {
+                    "src": "pe_formal.sv:89.17-89.58"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:90$84",
+                  "attributes": {
+                    "src": "pe_formal.sv:90.17-90.57"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:94$89",
+                  "attributes": {
+                    "src": "pe_formal.sv:94.13-94.42"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                },
+                {
+                  "name": "$logic_and$pe_formal.sv:94$90",
+                  "attributes": {
+                    "src": "pe_formal.sv:94.13-94.51"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000000001",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000000001",
+                    "Y_WIDTH": "00000000000000000000000000000001"
+                  }
+                }
+            ]
+          },
+          {
+            "type": "$mul",
+            "ports": [
+                {
+                  "name": "A",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "B",
+                  "direction": "io",
+                  "range": [32, 0]
+                },
+                {
+                  "name": "Y",
+                  "direction": "",
+                  "range": [32, 0]
+                }
+            ],
+            "cells": [
+                {
+                  "name": "$mul$pe_formal.sv:105$104",
+                  "attributes": {
+                    "src": "pe_formal.sv:105.21-105.57"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000100000"
+                  }
+                },
+                {
+                  "name": "$mul$pe_formal.sv:45$42",
+                  "attributes": {
+                    "src": "pe_formal.sv:45.54-46.112"
+                  },
+                  "parameters": {
+                    "A_SIGNED": "00000000000000000000000000000000",
+                    "A_WIDTH": "00000000000000000000000000100000",
+                    "B_SIGNED": "00000000000000000000000000000000",
+                    "B_WIDTH": "00000000000000000000000000100000",
+                    "Y_WIDTH": "00000000000000000000000000100000"
+                  }
+                }
+            ]
+          }
+        ],
+        "attributes": {
+            "keep": "00000000000000000000000000000001",
+            "dynports": "00000000000000000000000000000001",
+            "top": "00000000000000000000000000000001",
+            "src": "pe_formal.sv:8.1-161.10"
+        }
+      }
+  ]
+}
